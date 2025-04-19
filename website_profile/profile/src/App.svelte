@@ -1,25 +1,31 @@
 <script>
-	// GitHub repositories to showcase (only pinned repositories)
-	const repositories = [
-		{
-			name: "math_game",
-			description: "An interactive mathematics game designed to improve arithmetic skills through engaging challenges.",
-			url: "https://github.com/joelwwiggins/math_game",
-			skills: ["Python", "Game Development", "Education"]
-		},
-		{
-			name: "big_data",
-			description: "Analysis of large datasets using big data technologies and techniques.",
-			url: "https://github.com/joelwwiggins/big_data",
-			skills: ["Python", "Data Science", "Big Data"]
-		},
-		{
-			name: "sql",
-			description: "A collection of SQL scripts and database solutions for data management and analysis.",
-			url: "https://github.com/joelwwiggins/sql",
-			skills: ["SQL", "Database", "Data Analysis"]
-		}
-	];
+    // GitHub repositories to showcase (only pinned repositories)
+    const repositories = [
+        {
+            name: "math_game",
+            description: "A simple web-based math game built with Flask, PostgreSQL, and a modern CI/CD pipeline. Players solve addition problems with numbers from 0 to 10, tracking their scores and answer times. The project showcases robust software engineering practices, including automated testing, linting, security scanning, and a visually appealing neumorphic CSS design, making it a strong portfolio piece for demonstrating full-stack development skills.",
+            url: "https://github.com/joelwwiggins/math_game",
+            skills: ["Python", "Game Development", "Full-Stack Development"]
+        },
+        {
+            name: "big_data",
+            description: "Analysis of large datasets using big data technologies and techniques.",
+            url: "https://github.com/joelwwiggins/big_data",
+            skills: ["Python", "Data Science", "Big Data"]
+        },
+        {
+            name: "sql",
+            description: "A collection of SQL scripts and database solutions for data management and analysis.",
+            url: "https://github.com/joelwwiggins/sql",
+            skills: ["SQL", "Database", "Data Analysis"]
+        },
+        {
+            name: "volcano_temp",
+            description: "It started as a way to track temperatures of different mixes of vineger and baking soda to calculate stoiciometric reaction ratio. Now it is a Flask-based web API for reading environmental data from a BME280 sensor connected to a Raspberry Pi. Provides temperature, humidity, pressure, and altitude data through HTTP endpoints. Includes Docker support for containerized deployment. Results are displayed locally using the API and prometheus dashboard",
+            url: "https://github.com/joelwwiggins/volcano_temp",
+            skills: ["Python", "Data Visualization", "Scientific Analysis"]
+        }
+    ];
 </script>
 
 <main>
@@ -54,6 +60,12 @@
 				</div>
 			{/each}
 		</div>
+	</section>
+	
+	<section class="github-contributions">
+		<h2>GitHub Contributions</h2>
+		<p>Here's a visualization of my GitHub activity over time:</p>
+		<img src="https://ghchart.rshah.org/joelwwiggins" alt="GitHub Contributions Chart" />
 	</section>
 	
 	<footer>
